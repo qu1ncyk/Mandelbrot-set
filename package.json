@@ -23,7 +23,7 @@
         "@tsconfig/svelte": "^2.0.1",
         "@types/jest": "^26.0.16",
         "assemblyscript": "^0.18.31",
-        "jest": "^26.6.3",
+        "jest": "^27.0.4",
         "jest-canvas-mock": "^2.3.1",
         "rollup": "^2.3.4",
         "rollup-plugin-css-only": "^3.0.0",
