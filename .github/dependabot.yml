@@ -83,3 +83,8 @@ updates:
   - dependency-name: sirv-cli
     versions:
     - 1.0.10
+
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: daily
