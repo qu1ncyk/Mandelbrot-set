@@ -38,9 +38,8 @@ jobs:
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          GIT_CONFIG_NAME: ${{github.repository_owner}}
-          GIT_CONFIG_EMAIL: ${{github.event.repository.owner.id}}+${{github.repository_owner}}@users.noreply.github.com
-          BRANCH: gh-pages
-          FOLDER: public
-          CLEAN: true
+          git-config-name: ${{github.repository_owner}}
+          git-config-email: ${{github.event.repository.owner.id}}+${{github.repository_owner}}@users.noreply.github.com
+          branch: gh-pages
+          folder: public
+          clean: true
