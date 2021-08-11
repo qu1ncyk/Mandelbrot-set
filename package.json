@@ -21,7 +21,7 @@
         "@testing-library/jest-dom": "^5.11.9",
         "@testing-library/svelte": "^3.0.3",
         "@tsconfig/svelte": "^2.0.1",
-        "@types/jest": "^26.0.16",
+        "@types/jest": "^27.0.0",
         "assemblyscript": "^0.18.31",
         "jest": "^26.6.3",
         "jest-canvas-mock": "^2.3.1",
