@@ -23,7 +23,8 @@ jobs:
   automerge:
     if: github.event_name == 'pull_request'
     needs: test
-    runs-on: ubuntu-latestpermissions:
+    runs-on: ubuntu-latest
+    permissions:
       pull-requests: write
       contents: write
     steps:
