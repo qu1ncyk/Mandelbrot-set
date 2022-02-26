@@ -15,3 +15,6 @@ global.Worker = function (path) {
     this.worker.onmessage = event => this.onmessage(event);
     this.terminate = () => this.worker.terminate();
 };
+
+// the DOM Testing Library seems to need these
+global.clearImmediate = global.setImmediate = () => {};
