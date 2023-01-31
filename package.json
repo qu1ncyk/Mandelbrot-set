@@ -42,7 +42,7 @@
     "dependencies": {
         "@assemblyscript/loader": "^0.26.1",
         "sirv-cli": "^2.0.1",
-        "svelte-material-icons": "^2.0.0",
+        "svelte-material-icons": "^3.0.4",
         "svelte-tabs": "^1.1.0",
         "web-worker": "^1.0.0"
     },
